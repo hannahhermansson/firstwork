@@ -1,0 +1,120 @@
+body {
+  margin: auto; 
+  background-color: seashell; 
+  text-align: center; 
+  font-family: "Lexend", sans-serif; 
+}
+
+a {
+  color: black; 
+}
+
+h1 {
+  font-size: 50px; 
+}
+
+h3 {
+  font-size: 30px; 
+}
+
+h2,  
+h4, 
+p {
+  margin: 0; 
+  padding: 10px; 
+}
+
+.header {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.navbar {
+  display: flex; 
+  justify-content: space-around; 
+  margin: 0 10%; 
+  padding-bottom: 30px; 
+}
+
+.navbar p {
+  display: inline-block; 
+  padding: 10px 10px;
+}
+
+.main {
+  padding-top: 35px; 
+  opacity: 0.9; 
+  background-color: white; 
+}
+
+.story {
+  display: flex; 
+  margin: auto; 
+  width: 1000px; 
+  height: 600px; 
+  background-image: url("https://images.contentstack.io/v3/assets/blt6f84e20c72a89efa/blt77e3a87815cf1c94/6261cd6a6a84833d9f325776/img-hiking-with-your-dog-header.jpg"); 
+  background-size: cover; 
+  padding-top: 35px;
+  margin-bottom: 50px; 
+}
+
+.story .content {
+  margin: auto; 
+  background-color: white; 
+  opacity: 80%; 
+  width: 100%; 
+}
+
+.products {
+  display: flex; 
+  margin: auto; 
+  width: 1000px; 
+  height: 600px; 
+  background-image: url("https://www.azpetvet.com/wp-content/uploads/22Dog-Hiking22-scaled.jpeg");
+  background-size: cover; 
+  padding-top: 35px;
+  margin-bottom: 50px;
+}
+
+.products .content {
+  margin: auto; 
+  margin-left: 10px; 
+  background-color: white; 
+  opacity: 80%; 
+  width: 50%; 
+}
+
+.team {
+  padding-top: 70px; 
+  padding-top: 5px; 
+  display: inline-flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-bottom: 50px; 
+}
+
+.teammate {
+  padding: 10px; 
+  background-color: white; 
+  flex-basis: 280px; 
+}
+
+.teammate img {
+  margin-left: auto; 
+  margin-right: auto; 
+  display: inline-block;
+  width: 300px; 
+  height: auto; 
+  border: 2px solid black; 
+}
+
+.contact {
+  padding-top: 20px; 
+}
+
+
+
+
+
+
